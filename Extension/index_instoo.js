@@ -211,7 +211,7 @@ function buySub() {
         'success': (response) => {
             //////////console.log("Purchased");
             alert("Upgraded to Premium! Re-open the dashboard");
-            <!-- Event snippet for premium conversion page -->
+            // <!-- Event snippet for premium conversion page -->
 
   gtag('event', 'conversion', {
       'send_to': 'AW-770495091/qdukCP3S5aIBEPOks-8C',

@@ -1,0 +1,108 @@
+/* Global styles for all views */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+  
+  /* Container for each view */
+  .view-container {
+    max-width: 800px;
+    margin: 20px auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Headings */
+  h1, h2 {
+    color: #333;
+  }
+  
+  /* Buttons */
+  button {
+    padding: 10px 15px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  button:hover {
+    opacity: 0.8;
+  }
+  
+  /* Primary action buttons */
+  .btn-primary {
+    background-color: #007bff;
+    color: #fff;
+  }
+  
+  .btn-danger {
+    background-color: #dc3545;
+    color: #fff;
+  }
+  
+  /* Success messages */
+  .success-message {
+    color: green;
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  
+  /* Error messages */
+  .error-message {
+    color: red;
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  
+  /* Input fields */
+  input, textarea {
+    width: 90%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  /* Specific styles for different platforms */
+  .pinterest-theme {
+    background-color: #e60023;
+    color: white;
+  }
+  
+  .linkedin-theme {
+    background-color: #0077b5;
+    color: white;
+  }
+  
+  .tiktok-theme {
+    background-color: #000;
+    color: white;
+  }
+  
+  .twitter-theme {
+    background-color: #1da1f2;
+    color: white;
+  }
+  
+  .tinder-theme {
+    background-color: #ff5864;
+    color: white;
+  }
+  
+  .facebook-theme {
+    background-color: #1877f2;
+    color: white;
+  }
+  
+  .crm-theme {
+    background-color: #28a745;
+    color: white;
+  }
+  
